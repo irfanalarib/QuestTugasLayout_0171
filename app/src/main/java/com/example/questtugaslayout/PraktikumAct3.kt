@@ -25,5 +25,11 @@ fun TampilanRosterOnic(modifier : Modifier = Modifier){
             fontSize = 28.sp,
             fontWeight = FontWeight.Bold,
             color = Color.Black)
+        Text(
+            text = stringResource(id = R.string.header_team),
+            fontSize = 16.sp,
+            fontWeight = FontWeight.Bold,
+            color = Color.DarkGray
+        )
     }
 }

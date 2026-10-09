@@ -9,4 +9,9 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="text_yellow">#FFFF00</color>
+    <color name="card_kairi">#606060</color>
+    <color name="card_kiboy">#673AB7</color>
+    <color name="card_sanz">#0000FF</color>
+    <color name="card_lutpi">#008000</color>
+    <color name="card_kelra">#FF9800</color>
 </resources>

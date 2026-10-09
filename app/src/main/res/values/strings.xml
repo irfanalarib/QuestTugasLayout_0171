@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">QuestTugasLayout</string>
+
+    <string name="header_mpl">Team Mobile legend</string>
+    <string name="header_team">Onic Esport</string>
+    <string name="footer_copy">Copyright, 2026</string>
 </resources>

@@ -87,3 +87,12 @@ fun TampilanRosterOnic(modifier : Modifier = Modifier){
         }
     }
 }
+
+@Composable
+fun PlayerCard(
+    fotoPlayerResId: Int,
+    iconRoleResId: Int,
+    namaStringResId: Int,
+    negaraStringResId: Int,
+    cardColorResId: Int
+){}

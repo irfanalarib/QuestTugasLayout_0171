@@ -143,6 +143,12 @@ fun PlayerCard(
                     color = colorResource(id = R.color.text_yellow)
                 )
             }
+            Image(
+                painter = painterResource(id = iconRoleResId),
+                contentDescription = null,
+                contentScale = ContentScale.Fit,
+                modifier = Modifier.size(50.dp)
+            )
         }
     }
 }

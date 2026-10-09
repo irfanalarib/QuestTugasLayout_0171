@@ -34,5 +34,13 @@ fun TampilanRosterOnic(modifier : Modifier = Modifier){
             color = Color.DarkGray
         )
         Spacer(modifier = Modifier.height(16.dp))
+
+        PlayerCard(
+            fotoPlayerResId = R.drawable.kairi,
+            iconRoleResId = R.drawable.jungle,
+            namaStringResId = R.string.nama_player_1,
+            negaraStringResId = R.string.negara_1,
+            cardColorResId = R.color.card_kairi
+        )
     }
 }

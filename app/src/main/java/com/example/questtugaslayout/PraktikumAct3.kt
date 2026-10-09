@@ -127,6 +127,22 @@ fun PlayerCard(
                 contentScale = ContentScale.Crop,
                 modifier = Modifier.size(60.dp)
             )
+            Column(
+                horizontalAlignment = Alignment.CenterHorizontally,
+                modifier = Modifier.weight(1f)
+            ) {
+                Text(
+                    text = stringResource(id = namaStringResId),
+                    fontSize = 22.sp,
+                    fontWeight = FontWeight.Bold,
+                    color = Color.White
+                )
+                Text(
+                    text = stringResource(id = negaraStringResId),
+                    fontSize = 16.sp,
+                    color = colorResource(id = R.color.text_yellow)
+                )
+            }
         }
     }
 }

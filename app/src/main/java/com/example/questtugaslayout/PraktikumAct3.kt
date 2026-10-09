@@ -73,5 +73,16 @@ fun TampilanRosterOnic(modifier : Modifier = Modifier){
             negaraStringResId = R.string.negara_5,
             cardColorResId = R.color.card_kelra
         )
+        Box(
+            modifier = Modifier.fillMaxSize()
+        ) {
+            Text(
+                text = stringResource(id = R.string.footer_copy),
+                fontSize = 14.sp,
+                modifier = Modifier
+                    .align(Alignment.BottomCenter)
+                    .padding(bottom = 30.dp)
+            )
+        }
     }
 }

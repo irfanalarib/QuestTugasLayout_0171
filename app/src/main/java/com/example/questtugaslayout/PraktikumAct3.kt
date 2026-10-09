@@ -65,5 +65,13 @@ fun TampilanRosterOnic(modifier : Modifier = Modifier){
             negaraStringResId = R.string.negara_4,
             cardColorResId = R.color.card_lutpi
         )
+
+        PlayerCard(
+            fotoPlayerResId = R.drawable.kelra,
+            iconRoleResId = R.drawable.gold,
+            namaStringResId = R.string.nama_player_5,
+            negaraStringResId = R.string.negara_5,
+            cardColorResId = R.color.card_kelra
+        )
     }
 }

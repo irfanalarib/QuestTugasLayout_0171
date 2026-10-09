@@ -14,5 +14,11 @@ fun TampilanRosterOnic(modifier : Modifier = Modifier){
         .fillMaxSize()
         .padding (top = 40.dp),
         horizontalAlignment = Alignment.CenterHorizontally
-    ){}
+    ){
+        Text(
+            text = stringResource(id = R.string.header_mpl),
+            fontSize = 28.sp,
+            fontWeight = FontWeight.Bold,
+            color = Color.Black
+    }
 }

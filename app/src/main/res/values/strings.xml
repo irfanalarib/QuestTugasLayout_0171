@@ -4,4 +4,7 @@
     <string name="header_mpl">Team Mobile legend</string>
     <string name="header_team">Onic Esport</string>
     <string name="footer_copy">Copyright, 2026</string>
+
+    <string name="nama_player_1">Kairi</string>
+    <string name="negara_1">Filipina</string>
 </resources>

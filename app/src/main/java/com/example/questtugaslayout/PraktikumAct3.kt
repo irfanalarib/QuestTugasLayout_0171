@@ -19,6 +19,6 @@ fun TampilanRosterOnic(modifier : Modifier = Modifier){
             text = stringResource(id = R.string.header_mpl),
             fontSize = 28.sp,
             fontWeight = FontWeight.Bold,
-            color = Color.Black
+            color = Color.Black)
     }
 }

@@ -31,5 +31,6 @@ fun TampilanRosterOnic(modifier : Modifier = Modifier){
             fontWeight = FontWeight.Bold,
             color = Color.DarkGray
         )
+        Spacer(modifier = Modifier.height(16.dp))
     }
 }
